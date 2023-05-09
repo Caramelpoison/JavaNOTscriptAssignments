@@ -10,15 +10,15 @@ public class VariableInput {
 
         Scanner i1 = new Scanner(System.in);
         System.out.println("Enter an integer: ");
-        String num = i1.nextLine();
+        String num = i1.nextInt();
 
         Scanner d1 = new Scanner(System.in);
         System.out.println("Enter a double: ");
-        String dub = d1.nextLine();
+        String dub = d1.nextDouble();
 
         Scanner b1 = new Scanner(System.in);
         System.out.println("Enter a Boolean: ");
-        String boo = b1.nextLine();
+        String boo = b1.nextBoolean();
 
         System.out.println("Your string is " + string );
         System.out.println("Your integer is " + num);
