@@ -5,10 +5,17 @@ public class Calculations {
 
         Scanner     int1    =   new Scanner(System.in);
         System.out.println("Enter a number:");
-        int         num1     =   int1.nextint();
+        float         num1     =   int1.nextFloat();
 
         Scanner     int2    =   new Scanner(System.in);
         System.out.println("Enter a number:");
-        int         num2     =   int2.nextlint();
+        float         num2     =   int2.nextFloat();
+
+        System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+        System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
+        System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+        System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
+        System.out.println(num1 + " % " + num2 + " = " + (num1 % num2));
+
     }
 }
