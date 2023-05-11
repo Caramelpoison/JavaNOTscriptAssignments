@@ -24,4 +24,5 @@ public class LastItem {
 
         System.out.println("The input for this array is:   " + array.get(length - 1));
     }
+    
 }
