@@ -10,6 +10,7 @@ public class Calculations {
         Scanner     int2    =   new Scanner(System.in);
         System.out.println("Enter a number:");
         float         num2     =   int2.nextFloat();
+        float x = 2.8f;
 
         System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
         System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
