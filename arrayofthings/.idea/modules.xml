@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FifthItem/FifthItem.iml" filepath="$PROJECT_DIR$/FifthItem/FifthItem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HowLarge/HowLarge.iml" filepath="$PROJECT_DIR$/HowLarge/HowLarge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IndexOfInteger/IndexOfInteger.iml" filepath="$PROJECT_DIR$/IndexOfInteger/IndexOfInteger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LastItem/LastItem.iml" filepath="$PROJECT_DIR$/LastItem/LastItem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SumOfList/SumOfList.iml" filepath="$PROJECT_DIR$/SumOfList/SumOfList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/arrayofthings.iml" filepath="$PROJECT_DIR$/.idea/arrayofthings.iml" />
+    </modules>
+  </component>
+</project>
