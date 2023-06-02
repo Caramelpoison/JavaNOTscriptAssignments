@@ -44,9 +44,9 @@ public class Main {
         } else if (choice == 6) {
             deleteDirectory(directoryPath);
         } else if (choice == 7) {
-            searchFilesByName(directoryPath);
+            searchFileName(directoryPath);
         } else if (choice == 8) {
-            searchFilesByExtension(directoryPath);
+            searchFileExtension(directoryPath);
         } else if (choice == 0) {
             System.out.println("Exiting...");
             return;
@@ -156,7 +156,7 @@ public class Main {
         }
     }
 
-    private static void searchFilesByName(String directoryPath) {
+    private static void searchFileName(String directoryPath) {
         System.out.println("Enter the file name to search: ");
         String fileName = scanner.next();
 
@@ -176,7 +176,7 @@ public class Main {
         }
     }
 
-    private static void searchFilesByExtension(String directoryPath) {
+    private static void searchFileExtension(String directoryPath) {
         System.out.println("Enter the file extension to search (e.g., .txt): ");
         String extension = scanner.next();
 
