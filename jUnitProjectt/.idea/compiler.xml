@@ -9,5 +9,8 @@
         <module name="jUnitProject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JUnitProject" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
